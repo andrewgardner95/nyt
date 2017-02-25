@@ -6,28 +6,28 @@
   <title>The Magical Cat Button</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="nyTimes.js"></script>
+  
 </head>
 
 <body>
 
   <h1>New York Times Search</h1>
-<form action="url" class="container">
+<form class="container">
   <div class="form-group">
     <label for="searchTerms">Search Term</label>
     <input type="text" class="form-control fields" id="search-term" name="search">
   </div>
   <div class="form-group">
     <label for="record-count">Number of Records to Return</label>
-    <input type="text" class="form-control fields" id="record-count" name="search">
+    <input type="text" class="form-control fields" id="record-count" name="number">
   </div>
   <div class="form-group">
     <label for="start-year">Start Year (Optional)</label>
-    <input type="text" class="form-control fields" id="start-year" name="search">
+    <input type="text" class="form-control fields" id="start-year" name="startYear">
   </div>
     <div class="form-group">
     <label for="end-year">End Year (Optional)</label>
-    <input type="text" class="form-control fields" id="end-year" name="search">
+    <input type="text" class="form-control fields" id="end-year" name="endYear">
   </div>
 
   <button type="submit" class="btn btn-default" id="submit">Submit</button>
@@ -39,6 +39,7 @@
 
   </div>
 
+<script type="text/javascript" src="nyTimes.js"></script>
 </body>
 
 </html>
